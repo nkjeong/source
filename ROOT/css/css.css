@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Nanum+Gothic', sans-serif;
+}
+
+body, html{
+	margin:0;
+    padding:0;
+	width:100%;
+	height:100%;
+}
+
+.writeSection{
+	border-bottom: solid 1px #eeeeee;
+	padding:20px 0;
+}
+
+.layout{
+	display:flex;
+	width:100%;
+}
+.layoutWrite{
+	width:50%;
+	border-right: solid 1px #eeeeee;
+}
+.layoutView{
+	width:50%;
+}
+.itemWrite{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+}
+
+.inputStyle, .inputStyleSub{
+	all:unset;
+	border:solid 1px #eeeeee;
+	border-radius: 5px;
+	width:300px;
+	height:30px;
+	text-align: center;
+}
+
+.progress{
+	all:unset;
+	width:300px;
+	height:20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.progressBar{
+	width:100%;
+	height:50%;
+	border:solid 1px #eeeeee;
+	border-radius: 5px;
+}
+
+.progressBarFill{
+	width:50%;
+	height:100%;
+	border-radius: 5px;
+	background-color: #fff4f4;
+}
+
+section.itemWrite article input[type="number"]{
+	all:unset;
+	border:solid 1px #eeeeee;
+	border-radius: 5px;
+	width:50px;
+	height:30px;
+	text-align: center;
+}
+
+.titleProperties{
+	font-size:11px;
+	padding:0 5px;
+	border-right:solid 1px #dcdcdc;
+}
+
+.titleProperties:last-child{
+	border-right:none;
+}
+
+.fontColor{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fontColorApply{
+	width:10px;
+	height:10px;
+	border:solid 1px #999999;
+	margin:0 1px;
+	cursor:pointer;
+}
+.btnBold, .btnUnderline{
+	cursor:pointer;
+}
+.btnBold:hover, .btnUnderline:hover{
+	text-decoration: underline;
+	color:#b0b0b0;
+}
+.setRepresentativeImg{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	height:80px;
+	width:300px;
+	border:solid 1px #eeeeee;
+	border-radius: 10px;
+	cursor:pointer;
+}
+.setRepresentativeImg:hover{
+	background-color:#fbfbfb;
+	font-weight:bold;
+	color:#ffab50;
+}
